@@ -1,0 +1,110 @@
+body {
+  background-color: #14181c;
+  color: #ffffff;
+  display: flex;
+  font-family: "Mulish", sans-serif;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.background-png {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+.sitelogo {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  background-color: #1c2024;
+  padding: 36px;
+  padding-bottom: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  overflow: visible;
+  height: auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+  opacity: 0.93;
+}
+
+form:hover {
+  transform: translateY(-4px);
+  opacity: 1;
+}
+
+h2 {
+  text-align: center;
+  color: #b00023;
+  margin-top: -8px;
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+label {
+  margin: 13px 0 5px 5%;
+  color: #ccc;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 90%;
+  display: block;
+  margin: 0 auto 16px auto;
+  background-color: #2b3137;
+  border: 1px solid #3a3f44;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.button-container {
+  text-align: center;
+}
+
+input[type="submit"] {
+  width: 90%;
+  display: inline-block;
+  padding: 10px 2px;
+  background-color: #b00023;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: "Mulish", sans-serif;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: #8f031f;
+}
+
+.form-message {
+  width: 90%;
+  padding: 10px;
+  margin: 0 auto 16px auto;
+  border-radius: 4px;
+  color: #b00023;
+  font-size: 14px;
+  font-family: "Mulish", sans-serif;
+  text-align: center;
+}
